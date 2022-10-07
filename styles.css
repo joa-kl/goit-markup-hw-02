@@ -1,26 +1,140 @@
-.logo {
-    font-family: 'Raleway', sans-serif;
+.logo{
+    font-family:'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
     text-decoration: none;
 }
 
-.black{
+.logoblue{
+  color:  #2196F3
+}
+
+.logoblack{
     color:black;
-    text-decoration: none;
 }
 
-.navblue{
-    color: #2196F3;
+.logowhite{
+    color: #FFFFFF
+}
+
+
+
+
+header{
+    background-color: #FFFFFF;
 }
 
 body{
     color: #212121;
-    font-family:'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: #2F303A;
 }
 
 button{
-    border:0 ;}
+    border:0 ;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #212121;
+    letter-spacing: 0.02em;
+}
+.link:hover {
+    color: #2196F3;
+}
+
+.contactcolor{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contactcolor:hover{
+    color: #2196F3;
+}
+address{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.footer{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.decoration{
+    text-decoration: none;
+}
+.button:hover{
+color: white;
+background-color: #2196F3;
+}
+
+.description{
+    font-weight:  700;
+    font-size:18px;
+    letter-spacing: 0.06em;
+}
+.subdescription{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.name{
+font-weight:500;
+font=size: 16px;
+letter-spacing: 0.03em;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+}
+
+.heading{
+    background-color: #2F303A;
+    color: #FFFFFF
+}
+
+h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.lorem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.buttonmain{
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    color: #FFFFFF
+}

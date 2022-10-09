@@ -16,7 +16,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     text-decoration: none;
 }
 
@@ -57,6 +57,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.1;
     text-decoration: none;
     color: #212121;
     letter-spacing: 0.02em;
@@ -70,6 +71,7 @@ body{
     color: #757575;
     text-decoration: none;
     font-size: 14px;
+    line-height: 1.1;
 }
 .contactcolor:hover,
 .contactcolor:focus{
@@ -81,10 +83,12 @@ body{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
+    line-height: 1.7;
 }
 
 .footer{
     font-size: 14px;
+    line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -99,11 +103,13 @@ body{
 .description{
     font-weight:  700;
     font-size:18px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .subdescription{
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -111,12 +117,14 @@ body{
 .name{
 font-weight:500;
 font-size: 16px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 
 .headingtitle{
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.6;
     letter-spacing: 0.06em;
 }
 
@@ -128,14 +136,14 @@ letter-spacing: 0.03em;
 .subsectionheading{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
 }
 
 .lorem{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -143,7 +151,7 @@ letter-spacing: 0.03em;
 .sectionheading{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -156,4 +164,8 @@ letter-spacing: 0.03em;
 
 .pointer {
     cursor: pointer;
+}
+
+.list{
+    list-style:none;
 }

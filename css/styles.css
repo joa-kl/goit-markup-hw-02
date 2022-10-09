@@ -1,13 +1,15 @@
 :root{
     --brand-color: #2196F3;
-    --brand
+    --black: #212121;
+    --white: #FFFFFF;
+    --gray: #2F303A;
+    --color: black;
 }
 
-body {
+body{
     color: #212121;
     font-family: 'Roboto', sans-serif;
 }
-
 
 .logo{
     font-family:'Raleway', sans-serif;
@@ -80,6 +82,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
 .footer{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);

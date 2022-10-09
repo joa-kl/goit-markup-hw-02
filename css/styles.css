@@ -1,3 +1,9 @@
+body {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .logo{
     font-family:'Raleway', sans-serif;
     font-style: normal;
@@ -19,18 +25,11 @@
     color: #FFFFFF
 }
 
-
-
-
-header{
+.header{
     background-color: #FFFFFF;
 }
 
-body{
-    color: #212121;
-    font-family: 'Roboto', sans-serif;
-}
-footer {
+.footersection {
     background-color: #2F303A;
 }
 

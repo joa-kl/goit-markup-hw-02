@@ -1,3 +1,8 @@
+:root{
+    --brand-color: #2196F3;
+    --brand
+}
+
 body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
@@ -33,13 +38,18 @@ body {
     background-color: #2F303A;
 }
 
-button{
+.button{
     border:0 ;
     letter-spacing: 0.03em;
     font-size: 16px;
     font-weight: 500;
-}
+    font-family: 'Roboto', sans-serif;}
 
+.button:hover,
+.button:focus {
+    color: white;
+    background-color: #2196F3;
+}
 
 .link{
     font-style: normal;
@@ -49,7 +59,8 @@ button{
     color: #212121;
     letter-spacing: 0.02em;
 }
-.link:hover {
+.link:hover,
+.link:focus {
     color: #2196F3;
 }
 
@@ -58,10 +69,11 @@ button{
     text-decoration: none;
     font-size: 14px;
 }
-.contactcolor:hover{
+.contactcolor:hover,
+.contactcolor:focus{
     color: #2196F3;
 }
-address{
+.address{
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -73,15 +85,12 @@ address{
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer:hover{
+.footer:hover,
+.footer:focus{
     background-color: #2196F3;
 }
 .decoration{
     text-decoration: none;
-}
-.button:hover{
-color: white;
-background-color: #2196F3;
 }
 
 .description{
@@ -102,7 +111,7 @@ font-size: 16px;
 letter-spacing: 0.03em;
 }
 
-h1{
+.headingtitle{
     font-weight: 900;
     font-size: 44px;
     letter-spacing: 0.06em;
@@ -113,7 +122,7 @@ h1{
     color: #FFFFFF
 }
 
-h3{
+.subsectionheading{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -128,7 +137,7 @@ h3{
     color: #757575;
 }
 
-h2{
+.sectionheading{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;

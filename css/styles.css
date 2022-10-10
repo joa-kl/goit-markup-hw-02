@@ -4,10 +4,11 @@
     --white: #FFFFFF;
     --gray: #2F303A;
     --color: black;
+    --light-gray: #757575;
 }
 
 body{
-    color: #212121;
+    color: var(--black);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,23 +22,23 @@ body{
 }
 
 .logoblue{
-  color:  #2196F3
+  color: var(--brand-color);
 }
 
 .logoblack{
-    color:black;
+    color: var(--black);
 }
 
 .logowhite{
-    color: #FFFFFF
+    color: var(--white);
 }
 
 .header{
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 .footersection {
-    background-color: #2F303A;
+    background-color: var(--gray);
 }
 
 .button{
@@ -45,40 +46,42 @@ body{
     letter-spacing: 0.03em;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
 
 .button:hover,
 .button:focus {
-    color: white;
-    background-color: #2196F3;
+    color: var(--white);
+    background-color: var(--brand-color);
 }
 
-.link{
+.link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     text-decoration: none;
-    color: #212121;
+    color: var(--black);
     letter-spacing: 0.02em;
 }
+
 .link:hover,
 .link:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .contactcolor{
-    color: #757575;
+    color: var(--light-gray);
     text-decoration: none;
     font-size: 14px;
     line-height: 1.1;
 }
 .contactcolor:hover,
 .contactcolor:focus{
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .address{
-    color: #FFFFFF;
+    color: var(--white);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -94,7 +97,7 @@ body{
 
 .footer:hover,
 .footer:focus{
-    background-color: #2196F3;
+    color: var(--brand-color);
 }
 .decoration{
     text-decoration: none;
@@ -111,7 +114,7 @@ body{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--light-gray);
 }
 
 .name{
@@ -129,8 +132,8 @@ letter-spacing: 0.03em;
 }
 
 .heading{
-    background-color: #2F303A;
-    color: #FFFFFF
+    background-color: var(--gray);
+    color: var(--white);
 }
 
 .subsectionheading{
@@ -145,7 +148,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--light-gray);
 }
 
 .sectionheading{
@@ -158,8 +161,8 @@ letter-spacing: 0.03em;
 .buttonmain{
     font-weight: 700;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
-    color: #FFFFFF
+    background-color: var(--brand-color);
+    color: var(--white);
 }
 
 .pointer {
